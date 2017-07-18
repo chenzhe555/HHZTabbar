@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		742B82241F1D9AF000C8BFDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B82231F1D9AF000C8BFDB /* main.m */; };
+		742B82271F1D9AF000C8BFDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B82261F1D9AF000C8BFDB /* AppDelegate.m */; };
+		742B822A1F1D9AF000C8BFDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B82291F1D9AF000C8BFDB /* ViewController.m */; };
+		742B822D1F1D9AF000C8BFDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 742B822B1F1D9AF000C8BFDB /* Main.storyboard */; };
+		742B822F1F1D9AF000C8BFDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 742B822E1F1D9AF000C8BFDB /* Assets.xcassets */; };
+		742B82321F1D9AF000C8BFDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 742B82301F1D9AF000C8BFDB /* LaunchScreen.storyboard */; };
+		742B82431F1D9B6100C8BFDB /* HHZTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B823E1F1D9B6100C8BFDB /* HHZTabbar.m */; };
+		742B82441F1D9B6100C8BFDB /* HHZTabbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B82401F1D9B6100C8BFDB /* HHZTabbarItem.m */; };
+		742B82451F1D9B6100C8BFDB /* HHZTabbarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 742B82421F1D9B6100C8BFDB /* HHZTabbarModel.m */; };
+		74B4B41C1F1D9CC10015D0E7 /* DemoTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B4B41B1F1D9CC10015D0E7 /* DemoTabbar.m */; };
+		74B4B41F1F1D9CD40015D0E7 /* DemoTabbarTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B4B41E1F1D9CD40015D0E7 /* DemoTabbarTool.m */; };
+		74B4B4231F1D9DD70015D0E7 /* DemoOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B4B4211F1D9DD70015D0E7 /* DemoOneViewController.m */; };
+		74B4B4241F1D9DD70015D0E7 /* DemoOneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74B4B4221F1D9DD70015D0E7 /* DemoOneViewController.xib */; };
+		74B4B4281F1D9DE20015D0E7 /* DemoTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B4B4261F1D9DE20015D0E7 /* DemoTwoViewController.m */; };
+		74B4B4291F1D9DE20015D0E7 /* DemoTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74B4B4271F1D9DE20015D0E7 /* DemoTwoViewController.xib */; };
+		75E30784CF3A89CE448C4E8C /* libPods-HHZTabbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AEA1C7BC1885DEB27B727BB /* libPods-HHZTabbar.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AEA1C7BC1885DEB27B727BB /* libPods-HHZTabbar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHZTabbar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		293EF2091A6F88C307E3D14A /* Pods-HHZTabbar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHZTabbar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHZTabbar/Pods-HHZTabbar.debug.xcconfig"; sourceTree = "<group>"; };
+		571E5CD4B422AF27388D697A /* Pods-HHZTabbar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHZTabbar.release.xcconfig"; path = "Pods/Target Support Files/Pods-HHZTabbar/Pods-HHZTabbar.release.xcconfig"; sourceTree = "<group>"; };
+		742B821F1F1D9AF000C8BFDB /* HHZTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHZTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		742B82231F1D9AF000C8BFDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		742B82251F1D9AF000C8BFDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		742B82261F1D9AF000C8BFDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		742B82281F1D9AF000C8BFDB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		742B82291F1D9AF000C8BFDB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		742B822C1F1D9AF000C8BFDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		742B822E1F1D9AF000C8BFDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		742B82311F1D9AF000C8BFDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		742B82331F1D9AF000C8BFDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		742B823D1F1D9B6100C8BFDB /* HHZTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZTabbar.h; sourceTree = "<group>"; };
+		742B823E1F1D9B6100C8BFDB /* HHZTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZTabbar.m; sourceTree = "<group>"; };
+		742B823F1F1D9B6100C8BFDB /* HHZTabbarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZTabbarItem.h; sourceTree = "<group>"; };
+		742B82401F1D9B6100C8BFDB /* HHZTabbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZTabbarItem.m; sourceTree = "<group>"; };
+		742B82411F1D9B6100C8BFDB /* HHZTabbarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZTabbarModel.h; sourceTree = "<group>"; };
+		742B82421F1D9B6100C8BFDB /* HHZTabbarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZTabbarModel.m; sourceTree = "<group>"; };
+		74B4B41A1F1D9CC10015D0E7 /* DemoTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTabbar.h; sourceTree = "<group>"; };
+		74B4B41B1F1D9CC10015D0E7 /* DemoTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTabbar.m; sourceTree = "<group>"; };
+		74B4B41D1F1D9CD40015D0E7 /* DemoTabbarTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTabbarTool.h; sourceTree = "<group>"; };
+		74B4B41E1F1D9CD40015D0E7 /* DemoTabbarTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTabbarTool.m; sourceTree = "<group>"; };
+		74B4B4201F1D9DD70015D0E7 /* DemoOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoOneViewController.h; sourceTree = "<group>"; };
+		74B4B4211F1D9DD70015D0E7 /* DemoOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoOneViewController.m; sourceTree = "<group>"; };
+		74B4B4221F1D9DD70015D0E7 /* DemoOneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoOneViewController.xib; sourceTree = "<group>"; };
+		74B4B4251F1D9DE20015D0E7 /* DemoTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTwoViewController.h; sourceTree = "<group>"; };
+		74B4B4261F1D9DE20015D0E7 /* DemoTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTwoViewController.m; sourceTree = "<group>"; };
+		74B4B4271F1D9DE20015D0E7 /* DemoTwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoTwoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		742B821C1F1D9AF000C8BFDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E30784CF3A89CE448C4E8C /* libPods-HHZTabbar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		087C317F1DC0C05B589745AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				293EF2091A6F88C307E3D14A /* Pods-HHZTabbar.debug.xcconfig */,
+				571E5CD4B422AF27388D697A /* Pods-HHZTabbar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4F90400C73A48E8CCE7E7D00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AEA1C7BC1885DEB27B727BB /* libPods-HHZTabbar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		742B82161F1D9AEF00C8BFDB = {
+			isa = PBXGroup;
+			children = (
+				742B82211F1D9AF000C8BFDB /* HHZTabbar */,
+				742B82201F1D9AF000C8BFDB /* Products */,
+				087C317F1DC0C05B589745AA /* Pods */,
+				4F90400C73A48E8CCE7E7D00 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		742B82201F1D9AF000C8BFDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				742B821F1F1D9AF000C8BFDB /* HHZTabbar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		742B82211F1D9AF000C8BFDB /* HHZTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				74B4B4161F1D9C840015D0E7 /* Demo */,
+				742B823C1F1D9B6100C8BFDB /* Tabbar */,
+				742B82251F1D9AF000C8BFDB /* AppDelegate.h */,
+				742B82261F1D9AF000C8BFDB /* AppDelegate.m */,
+				742B82281F1D9AF000C8BFDB /* ViewController.h */,
+				742B82291F1D9AF000C8BFDB /* ViewController.m */,
+				742B822B1F1D9AF000C8BFDB /* Main.storyboard */,
+				742B822E1F1D9AF000C8BFDB /* Assets.xcassets */,
+				742B82301F1D9AF000C8BFDB /* LaunchScreen.storyboard */,
+				742B82331F1D9AF000C8BFDB /* Info.plist */,
+				742B82221F1D9AF000C8BFDB /* Supporting Files */,
+			);
+			path = HHZTabbar;
+			sourceTree = "<group>";
+		};
+		742B82221F1D9AF000C8BFDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				742B82231F1D9AF000C8BFDB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		742B823C1F1D9B6100C8BFDB /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				742B823D1F1D9B6100C8BFDB /* HHZTabbar.h */,
+				742B823E1F1D9B6100C8BFDB /* HHZTabbar.m */,
+				742B823F1F1D9B6100C8BFDB /* HHZTabbarItem.h */,
+				742B82401F1D9B6100C8BFDB /* HHZTabbarItem.m */,
+				742B82411F1D9B6100C8BFDB /* HHZTabbarModel.h */,
+				742B82421F1D9B6100C8BFDB /* HHZTabbarModel.m */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		74B4B4161F1D9C840015D0E7 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				74B4B41A1F1D9CC10015D0E7 /* DemoTabbar.h */,
+				74B4B41B1F1D9CC10015D0E7 /* DemoTabbar.m */,
+				74B4B41D1F1D9CD40015D0E7 /* DemoTabbarTool.h */,
+				74B4B41E1F1D9CD40015D0E7 /* DemoTabbarTool.m */,
+				74B4B4201F1D9DD70015D0E7 /* DemoOneViewController.h */,
+				74B4B4211F1D9DD70015D0E7 /* DemoOneViewController.m */,
+				74B4B4221F1D9DD70015D0E7 /* DemoOneViewController.xib */,
+				74B4B4251F1D9DE20015D0E7 /* DemoTwoViewController.h */,
+				74B4B4261F1D9DE20015D0E7 /* DemoTwoViewController.m */,
+				74B4B4271F1D9DE20015D0E7 /* DemoTwoViewController.xib */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		742B821E1F1D9AF000C8BFDB /* HHZTabbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 742B82361F1D9AF000C8BFDB /* Build configuration list for PBXNativeTarget "HHZTabbar" */;
+			buildPhases = (
+				256CA3AE35A007C5AC3416B8 /* [CP] Check Pods Manifest.lock */,
+				742B821B1F1D9AF000C8BFDB /* Sources */,
+				742B821C1F1D9AF000C8BFDB /* Frameworks */,
+				742B821D1F1D9AF000C8BFDB /* Resources */,
+				DDC1DEEEED31F1CDE5866B14 /* [CP] Embed Pods Frameworks */,
+				34BD72AAE5B3C91274A5B435 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HHZTabbar;
+			productName = HHZTabbar;
+			productReference = 742B821F1F1D9AF000C8BFDB /* HHZTabbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		742B82171F1D9AEF00C8BFDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "陈哲是个好孩子";
+				TargetAttributes = {
+					742B821E1F1D9AF000C8BFDB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = P5LP3WSZUP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 742B821A1F1D9AEF00C8BFDB /* Build configuration list for PBXProject "HHZTabbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 742B82161F1D9AEF00C8BFDB;
+			productRefGroup = 742B82201F1D9AF000C8BFDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				742B821E1F1D9AF000C8BFDB /* HHZTabbar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		742B821D1F1D9AF000C8BFDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B4B4241F1D9DD70015D0E7 /* DemoOneViewController.xib in Resources */,
+				74B4B4291F1D9DE20015D0E7 /* DemoTwoViewController.xib in Resources */,
+				742B82321F1D9AF000C8BFDB /* LaunchScreen.storyboard in Resources */,
+				742B822F1F1D9AF000C8BFDB /* Assets.xcassets in Resources */,
+				742B822D1F1D9AF000C8BFDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		256CA3AE35A007C5AC3416B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		34BD72AAE5B3C91274A5B435 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HHZTabbar/Pods-HHZTabbar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDC1DEEEED31F1CDE5866B14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HHZTabbar/Pods-HHZTabbar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		742B821B1F1D9AF000C8BFDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B4B4281F1D9DE20015D0E7 /* DemoTwoViewController.m in Sources */,
+				742B82451F1D9B6100C8BFDB /* HHZTabbarModel.m in Sources */,
+				742B82431F1D9B6100C8BFDB /* HHZTabbar.m in Sources */,
+				74B4B41F1F1D9CD40015D0E7 /* DemoTabbarTool.m in Sources */,
+				742B82441F1D9B6100C8BFDB /* HHZTabbarItem.m in Sources */,
+				742B822A1F1D9AF000C8BFDB /* ViewController.m in Sources */,
+				742B82271F1D9AF000C8BFDB /* AppDelegate.m in Sources */,
+				74B4B41C1F1D9CC10015D0E7 /* DemoTabbar.m in Sources */,
+				74B4B4231F1D9DD70015D0E7 /* DemoOneViewController.m in Sources */,
+				742B82241F1D9AF000C8BFDB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		742B822B1F1D9AF000C8BFDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				742B822C1F1D9AF000C8BFDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		742B82301F1D9AF000C8BFDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				742B82311F1D9AF000C8BFDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		742B82341F1D9AF000C8BFDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		742B82351F1D9AF000C8BFDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		742B82371F1D9AF000C8BFDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 293EF2091A6F88C307E3D14A /* Pods-HHZTabbar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P5LP3WSZUP;
+				INFOPLIST_FILE = HHZTabbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenzhe.HHZTabbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		742B82381F1D9AF000C8BFDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 571E5CD4B422AF27388D697A /* Pods-HHZTabbar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P5LP3WSZUP;
+				INFOPLIST_FILE = HHZTabbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenzhe.HHZTabbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		742B821A1F1D9AEF00C8BFDB /* Build configuration list for PBXProject "HHZTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				742B82341F1D9AF000C8BFDB /* Debug */,
+				742B82351F1D9AF000C8BFDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		742B82361F1D9AF000C8BFDB /* Build configuration list for PBXNativeTarget "HHZTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				742B82371F1D9AF000C8BFDB /* Debug */,
+				742B82381F1D9AF000C8BFDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 742B82171F1D9AEF00C8BFDB /* Project object */;
+}
