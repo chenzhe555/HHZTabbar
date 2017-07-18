@@ -194,8 +194,8 @@
 				TargetAttributes = {
 					742B821E1F1D9AF000C8BFDB = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = P5LP3WSZUP;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 9D5BK8R2U4;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -415,11 +415,14 @@
 			baseConfigurationReference = 293EF2091A6F88C307E3D14A /* Pods-HHZTabbar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = P5LP3WSZUP;
+				DEVELOPMENT_TEAM = 9D5BK8R2U4;
 				INFOPLIST_FILE = HHZTabbar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.chenzhe.HHZTabbar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meicai.crm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a22f1b06-4a88-4465-9cf7-64cdf0acca5d";
+				PROVISIONING_PROFILE_SPECIFIER = company_crm_dev;
 			};
 			name = Debug;
 		};
@@ -428,11 +431,15 @@
 			baseConfigurationReference = 571E5CD4B422AF27388D697A /* Pods-HHZTabbar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = P5LP3WSZUP;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 9D5BK8R2U4;
 				INFOPLIST_FILE = HHZTabbar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.chenzhe.HHZTabbar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meicai.crm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b8b01cfd-fe21-4429-9341-b82535280713";
+				PROVISIONING_PROFILE_SPECIFIER = meicai_crm_dis;
 			};
 			name = Release;
 		};
