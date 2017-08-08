@@ -18,7 +18,6 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  *  获取tabbar实例
  *
- *  @return
  */
 +(instancetype)shareManager;
 
@@ -26,7 +25,6 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  *  每次项目启动从Appdelegate获取tabbar实例
  *
- *  @param tabbar
  */
 -(void)getTabbarInstance:(id)tabbar;
 
@@ -34,7 +32,6 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  *  获取tabbar高度
  *
- *  @return
  */
 -(CGFloat)getTabbarHeight;
 @end

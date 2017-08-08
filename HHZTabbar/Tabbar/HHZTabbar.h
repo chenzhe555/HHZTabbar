@@ -26,7 +26,6 @@
 /**
  *  传入index索引值切换到相应tabbarItem目录下
  *
- *  @param index
  */
 -(void)switchTabbarItem:(NSInteger)index;
 
@@ -59,14 +58,12 @@
 /**
  *  设置动画时间(必须在createTabbar之前传入)
  *
- *  @param time
  */
 -(void)setAnimationTime:(CGFloat)time;
 
 /**
  *  获取Tabbar高度
  *
- *  @return 
  */
 -(CGFloat)getTabbarHeight;
 @end

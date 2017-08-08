@@ -1,60 +1,81 @@
 PODS:
-  - HHZCategory (0.0.2):
-    - HHZCategory/HHZCategory (= 0.0.2)
-  - HHZCategory/HHZCategory (0.0.2):
-    - HHZCategory/HHZCategory/foundation (= 0.0.2)
-    - HHZCategory/HHZCategory/uikit (= 0.0.2)
-  - HHZCategory/HHZCategory/foundation (0.0.2)
-  - HHZCategory/HHZCategory/uikit (0.0.2)
+  - HHZCategory (0.0.2.4):
+    - HHZCategory/HHZCategory (= 0.0.2.4)
+  - HHZCategory/HHZCategory (0.0.2.4):
+    - HHZCategory/HHZCategory/foundation (= 0.0.2.4)
+    - HHZCategory/HHZCategory/uikit (= 0.0.2.4)
+  - HHZCategory/HHZCategory/foundation (0.0.2.4)
+  - HHZCategory/HHZCategory/uikit (0.0.2.4)
   - HHZConfigs (0.0.1)
-  - HHZUtils (0.0.2):
-    - HHZUtils/HHZUtils (= 0.0.2)
-  - HHZUtils/HHZUtils (0.0.2):
-    - HHZUtils/HHZUtils/application (= 0.0.2)
-    - HHZUtils/HHZUtils/archive (= 0.0.2)
-    - HHZUtils/HHZUtils/calculate (= 0.0.2)
-    - HHZUtils/HHZUtils/cookie (= 0.0.2)
-    - HHZUtils/HHZUtils/date (= 0.0.2)
-    - HHZUtils/HHZUtils/device (= 0.0.2)
-    - HHZUtils/HHZUtils/encryption (= 0.0.2)
-    - HHZUtils/HHZUtils/exception (= 0.0.2)
-    - HHZUtils/HHZUtils/file (= 0.0.2)
-    - HHZUtils/HHZUtils/http (= 0.0.2)
-    - HHZUtils/HHZUtils/json (= 0.0.2)
-    - HHZUtils/HHZUtils/kit (= 0.0.2)
-    - HHZUtils/HHZUtils/numerical (= 0.0.2)
-    - HHZUtils/HHZUtils/plist (= 0.0.2)
-    - HHZUtils/HHZUtils/regular (= 0.0.2)
-    - HHZUtils/HHZUtils/system (= 0.0.2)
-  - HHZUtils/HHZUtils/application (0.0.2)
-  - HHZUtils/HHZUtils/archive (0.0.2)
-  - HHZUtils/HHZUtils/calculate (0.0.2)
-  - HHZUtils/HHZUtils/cookie (0.0.2)
-  - HHZUtils/HHZUtils/date (0.0.2)
-  - HHZUtils/HHZUtils/device (0.0.2)
-  - HHZUtils/HHZUtils/encryption (0.0.2):
-    - HHZUtils/HHZUtils/encryption/GTMBase64 (= 0.0.2)
-  - HHZUtils/HHZUtils/encryption/GTMBase64 (0.0.2)
-  - HHZUtils/HHZUtils/exception (0.0.2)
-  - HHZUtils/HHZUtils/file (0.0.2)
-  - HHZUtils/HHZUtils/http (0.0.2)
-  - HHZUtils/HHZUtils/json (0.0.2)
-  - HHZUtils/HHZUtils/kit (0.0.2)
-  - HHZUtils/HHZUtils/numerical (0.0.2)
-  - HHZUtils/HHZUtils/plist (0.0.2)
-  - HHZUtils/HHZUtils/regular (0.0.2)
-  - HHZUtils/HHZUtils/system (0.0.2)
+  - HHZUtils (0.0.3.1):
+    - HHZUtils/HHZUtils (= 0.0.3.1)
+  - HHZUtils/HHZUtils (0.0.3.1):
+    - HHZUtils/HHZUtils/application (= 0.0.3.1)
+    - HHZUtils/HHZUtils/archive (= 0.0.3.1)
+    - HHZUtils/HHZUtils/calculate (= 0.0.3.1)
+    - HHZUtils/HHZUtils/cookie (= 0.0.3.1)
+    - HHZUtils/HHZUtils/date (= 0.0.3.1)
+    - HHZUtils/HHZUtils/device (= 0.0.3.1)
+    - HHZUtils/HHZUtils/encryption (= 0.0.3.1)
+    - HHZUtils/HHZUtils/exception (= 0.0.3.1)
+    - HHZUtils/HHZUtils/file (= 0.0.3.1)
+    - HHZUtils/HHZUtils/http (= 0.0.3.1)
+    - HHZUtils/HHZUtils/json (= 0.0.3.1)
+    - HHZUtils/HHZUtils/kit (= 0.0.3.1)
+    - HHZUtils/HHZUtils/numerical (= 0.0.3.1)
+    - HHZUtils/HHZUtils/plist (= 0.0.3.1)
+    - HHZUtils/HHZUtils/regular (= 0.0.3.1)
+    - HHZUtils/HHZUtils/sectionIndex (= 0.0.3.1)
+    - HHZUtils/HHZUtils/system (= 0.0.3.1)
+  - HHZUtils/HHZUtils/application (0.0.3.1)
+  - HHZUtils/HHZUtils/archive (0.0.3.1)
+  - HHZUtils/HHZUtils/calculate (0.0.3.1)
+  - HHZUtils/HHZUtils/cookie (0.0.3.1)
+  - HHZUtils/HHZUtils/date (0.0.3.1)
+  - HHZUtils/HHZUtils/device (0.0.3.1)
+  - HHZUtils/HHZUtils/encryption (0.0.3.1):
+    - HHZUtils/HHZUtils/encryption/GTMBase64 (= 0.0.3.1)
+  - HHZUtils/HHZUtils/encryption/GTMBase64 (0.0.3.1)
+  - HHZUtils/HHZUtils/exception (0.0.3.1)
+  - HHZUtils/HHZUtils/file (0.0.3.1)
+  - HHZUtils/HHZUtils/http (0.0.3.1)
+  - HHZUtils/HHZUtils/json (0.0.3.1)
+  - HHZUtils/HHZUtils/kit (0.0.3.1)
+  - HHZUtils/HHZUtils/numerical (0.0.3.1)
+  - HHZUtils/HHZUtils/plist (0.0.3.1)
+  - HHZUtils/HHZUtils/regular (0.0.3.1)
+  - HHZUtils/HHZUtils/sectionIndex (0.0.3.1)
+  - HHZUtils/HHZUtils/system (0.0.3.1)
 
 DEPENDENCIES:
-  - HHZCategory (~> 0.0.2)
-  - HHZConfigs (~> 0.0.1)
-  - HHZUtils (~> 0.0.2)
+  - HHZCategory (from `https://github.com/chenzhe555/HHZCategory.git`)
+  - HHZConfigs (from `https://github.com/chenzhe555/HHZConfigs.git`)
+  - HHZUtils (from `https://github.com/chenzhe555/HHZUtils.git`)
+
+EXTERNAL SOURCES:
+  HHZCategory:
+    :git: https://github.com/chenzhe555/HHZCategory.git
+  HHZConfigs:
+    :git: https://github.com/chenzhe555/HHZConfigs.git
+  HHZUtils:
+    :git: https://github.com/chenzhe555/HHZUtils.git
+
+CHECKOUT OPTIONS:
+  HHZCategory:
+    :commit: 47a78c88b3b786514d6b80da9c04f94d8b9df454
+    :git: https://github.com/chenzhe555/HHZCategory.git
+  HHZConfigs:
+    :commit: 99bda33dc7d7d64b4a0db04e754f17640aa54e44
+    :git: https://github.com/chenzhe555/HHZConfigs.git
+  HHZUtils:
+    :commit: 15585b8205a5982b57b5543dab09dd27c998b177
+    :git: https://github.com/chenzhe555/HHZUtils.git
 
 SPEC CHECKSUMS:
-  HHZCategory: 8c22d0956dc7ffcc66432089e2abe25ec27423d3
+  HHZCategory: b8daeffa2c5eba1be7329fdb03804f04e32ea5da
   HHZConfigs: ec7b50d7bc0f7738a1e104b325b22a5ab81ece85
-  HHZUtils: eb8df0af9afb762b76423b09ae6e3dbc15085a7f
+  HHZUtils: 8caa2bd6e807c196ff90d4406dca9ab977e7da3a
 
-PODFILE CHECKSUM: 4f247a4cf55b3254c3faf703720a28f0f041b565
+PODFILE CHECKSUM: 34ff3ad78b7ad3f7b5f5b08c6738a42bbb9a1cc1
 
-COCOAPODS: 1.3.0.beta.1
+COCOAPODS: 1.3.0.beta.3

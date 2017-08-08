@@ -296,7 +296,6 @@ static CGFloat redPoingY;
 /**
  *  供类内部调用的切换Item
  *
- *  @param item
  */
 -(void)exchangeCurrentItem:(HHZTabbarItem *)item
 {

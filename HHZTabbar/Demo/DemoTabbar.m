@@ -69,6 +69,10 @@
     {
         vc = [[UIViewController alloc] initWithNibName:@"DemoTwoViewController" bundle:nil];
     }
+    else
+    {
+        vc = [[UIViewController alloc] init];
+    }
     UINavigationController * nac = [[UINavigationController alloc] initWithRootViewController:vc];
     return nac;
 }
