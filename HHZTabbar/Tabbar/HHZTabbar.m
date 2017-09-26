@@ -288,7 +288,9 @@ static CGFloat redPoingY;
             _currentItem.isSelected = NO;
             _currentItem = (HHZTabbarItem *)vie;
             _currentItem.isSelected = YES;
-            self.selectedIndex = index;
+            dispatch_async(dispatch_get_main_queue(), ^{
+                self.selectedIndex = index;
+            });
         }
     }
 }
