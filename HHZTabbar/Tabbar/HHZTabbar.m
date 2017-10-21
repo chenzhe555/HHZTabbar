@@ -210,14 +210,14 @@ static CGFloat redPoingY;
 
 -(void)loadRedPointRect
 {
-    if (kIS_iPhone6Plus)
+    if (kIS_iPhone_5_8)
     {
         redPointX = 58.0f;
         redPoingY = 5.0f;
     }
-    else if (kIS_iPhone6)
+    else if (kIS_iPhone_5_5)
     {
-        redPointX = 52.0f;
+        redPointX = 58.0f;
         redPoingY = 5.0f;
     }
     else
