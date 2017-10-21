@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4DB06729AA95244037C09CEAE7DAA0CC'
-               BlueprintName = 'Pods-HHZTabbar'
+               BlueprintIdentifier = '36C9424AEDADA62F1521262FC1CA5E38'
+               BlueprintName = 'HHZConfigs'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-HHZTabbar.a'>
+               BuildableName = 'libHHZConfigs.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
