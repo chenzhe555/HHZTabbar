@@ -58,8 +58,8 @@ static UIColor * selectedColor;
         
         _itemLabel = [[UILabel alloc] init];
         _itemLabel.backgroundColor = [UIColor clearColor];
-        normalColor = [UIColor colorWithHexString_hhz:[HHZPlistTool getPlistValueForKey:@"normalColor" plistName:@"HHZTabbar"]];
-        selectedColor = [UIColor colorWithHexString_hhz:[HHZPlistTool getPlistValueForKey:@"selectedColor" plistName:@"HHZTabbar"]];
+        normalColor = [UIColor hhz_colorWithHexString:[HHZPlistTool getPlistValueForKey:@"normalColor" plistName:@"HHZTabbar"]];
+        selectedColor = [UIColor hhz_colorWithHexString:[HHZPlistTool getPlistValueForKey:@"selectedColor" plistName:@"HHZTabbar"]];
         _itemLabel.textColor = normalColor;
         _itemLabel.textAlignment = NSTextAlignmentCenter;
         _itemLabel.font = [UIFont systemFontOfSize:10.0f];
