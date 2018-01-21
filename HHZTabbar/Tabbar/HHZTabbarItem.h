@@ -40,6 +40,11 @@ typedef NS_ENUM(NSInteger,HHZTabbarItemType){
 @property (nonatomic, assign) BOOL isBigNoClicked;
 
 /**
+ *  文字文本大小
+ */
+@property (nonatomic, assign) NSInteger fontSize;
+
+/**
  *  创建Item视图
  *
  *  @param text        底部文字

@@ -62,7 +62,14 @@ static UIColor * selectedColor;
         selectedColor = [UIColor hhz_colorWithHexString:[HHZPlistTool getPlistValueForKey:@"selectedColor" plistName:@"HHZTabbar"]];
         _itemLabel.textColor = normalColor;
         _itemLabel.textAlignment = NSTextAlignmentCenter;
-        _itemLabel.font = [UIFont systemFontOfSize:10.0f];
+        if (self.fontSize != 0)
+        {
+            _itemLabel.font = [UIFont systemFontOfSize:self.fontSize];
+        }
+        else
+        {
+            _itemLabel.font = [UIFont systemFontOfSize:10.0f];
+        }
         [self addSubview:_itemLabel];
         
         [self addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(itemButtonClicked)]];

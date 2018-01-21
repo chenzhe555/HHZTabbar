@@ -10,6 +10,9 @@
 #import "HHZTabbarItem.h"
 
 @interface HHZTabbar : UITabBarController<HHZTabbarItemDelegate>
+//文字字体大小
+@property (nonatomic, assign) NSInteger fontSize;
+
 #pragma mark 对外接口
 -(void)exchangeCurrentItem:(HHZTabbarItem *)item;
 #pragma mark 对外接口 ---> Tabbar的显示操作
