@@ -30,10 +30,6 @@ static CGFloat redPoingY;
  */
 @property (nonatomic, strong) NSMutableArray * itemArray;
 
-/**
- *  用于记录tabbar的高度，用于可复用于手动适配
- */
-@property (nonatomic, assign) CGFloat tabbarHeight;
 
 /**
  *  底部显示视图的类型
@@ -120,7 +116,10 @@ static CGFloat redPoingY;
     {
         if ([vie isKindOfClass:[UITabBar class]])
         {
-            _tabbarHeight = vie.frame.size.height;
+            if (_tabbarHeight == 0)
+            {
+                _tabbarHeight = vie.frame.size.height;
+            }
             vie.hidden = YES;
             break;
         }

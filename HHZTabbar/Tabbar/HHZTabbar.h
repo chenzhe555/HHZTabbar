@@ -12,6 +12,10 @@
 @interface HHZTabbar : UITabBarController<HHZTabbarItemDelegate>
 //文字字体大小
 @property (nonatomic, assign) NSInteger fontSize;
+/**
+ *  用于记录tabbar的高度，用于可复用于手动适配
+ */
+@property (nonatomic, assign) CGFloat tabbarHeight;
 
 #pragma mark 对外接口
 -(void)exchangeCurrentItem:(HHZTabbarItem *)item;
