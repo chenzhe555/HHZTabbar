@@ -143,6 +143,7 @@ static CGFloat redPoingY;
         HHZTabbarItem * item = [[HHZTabbarItem alloc] init];
         item.frame = CGRectMake(i * SCREENW/count, 0, SCREENW/count, _tabbarHeight);
         item.tag = i + 666;
+        item.fontSize = self.fontSize;
         
         /*根据配置参数决定Item的行为*/
         configStr = _extraArray[i];
