@@ -195,7 +195,7 @@ static CGFloat redPoingY;
         [_customBarView addSubview:vie2];
     }
     else {
-        if (_isShowTopLine)
+        if (_hideTopHorzontalLine)
         {
             UIView * vie1 = [[UIView alloc] init];
             vie1.frame = CGRectMake(0, 0, SCREENW, 0.5);

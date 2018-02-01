@@ -23,9 +23,9 @@
 @property (readonly,strong, nonatomic) UIView * customBarView;
 
 /**
- *  是否显示tabbarView上的那一条线
+ *  是否隐藏tabbarView上的那一条线
  */
-@property (nonatomic, assign) BOOL isShowTopLine;
+@property (nonatomic, assign) BOOL hideTopHorzontalLine;
 
 
 #pragma mark 对外接口
