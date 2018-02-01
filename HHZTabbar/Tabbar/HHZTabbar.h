@@ -17,6 +17,11 @@
  */
 @property (nonatomic, assign) CGFloat tabbarHeight;
 
+/**
+ *  自定义的tabbarView，放在tabVC上面
+ */
+@property (readonly,strong, nonatomic) UIView * customBarView;
+
 #pragma mark 对外接口
 -(void)exchangeCurrentItem:(HHZTabbarItem *)item;
 #pragma mark 对外接口 ---> Tabbar的显示操作

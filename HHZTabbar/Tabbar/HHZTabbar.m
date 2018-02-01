@@ -15,10 +15,7 @@ static CGFloat redPointX;
 static CGFloat redPoingY;
 
 @interface HHZTabbar()
-/**
- *  自定义的tabbarView，放在tabVC上面
- */
-@property (readonly,strong, nonatomic) UIView * customBarView;
+
 
 /**
  *  当前Item
