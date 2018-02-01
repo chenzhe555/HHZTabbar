@@ -75,6 +75,7 @@ static CGFloat redPoingY;
 {
     _animationTime = 0.3;
     _extraHeight = 30;
+    _isShowTopLine = YES;
 }
 
 -(void)setTitleArray:(NSArray *)titleArr normalImageArray:(NSArray *)normalArray selectedImageArray:(NSArray *)selectedArray
@@ -194,10 +195,13 @@ static CGFloat redPoingY;
         [_customBarView addSubview:vie2];
     }
     else {
-        UIView * vie1 = [[UIView alloc] init];
-        vie1.frame = CGRectMake(0, 0, SCREENW, 0.5);
-        vie1.backgroundColor = [UIColor lightGrayColor];
-        [_customBarView addSubview:vie1];
+        if (_isShowTopLine)
+        {
+            UIView * vie1 = [[UIView alloc] init];
+            vie1.frame = CGRectMake(0, 0, SCREENW, 0.5);
+            vie1.backgroundColor = [UIColor lightGrayColor];
+            [_customBarView addSubview:vie1];
+        }
     }
     
     [self.view addSubview:_customBarView];

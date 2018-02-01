@@ -22,6 +22,12 @@
  */
 @property (readonly,strong, nonatomic) UIView * customBarView;
 
+/**
+ *  是否显示tabbarView上的那一条线
+ */
+@property (nonatomic, assign) BOOL isShowTopLine;
+
+
 #pragma mark 对外接口
 -(void)exchangeCurrentItem:(HHZTabbarItem *)item;
 #pragma mark 对外接口 ---> Tabbar的显示操作
