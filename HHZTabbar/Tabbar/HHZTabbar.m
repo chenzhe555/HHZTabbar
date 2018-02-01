@@ -75,7 +75,6 @@ static CGFloat redPoingY;
 {
     _animationTime = 0.3;
     _extraHeight = 30;
-    _isShowTopLine = YES;
 }
 
 -(void)setTitleArray:(NSArray *)titleArr normalImageArray:(NSArray *)normalArray selectedImageArray:(NSArray *)selectedArray
