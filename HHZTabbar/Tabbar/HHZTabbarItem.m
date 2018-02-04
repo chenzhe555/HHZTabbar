@@ -141,11 +141,11 @@ static UIColor * selectedColor;
     {
         CABasicAnimation *scaleAnimation = [CABasicAnimation animationWithKeyPath:@"transform.scale"];
         scaleAnimation.fromValue = [NSNumber numberWithFloat:1.0];
-        scaleAnimation.toValue = [NSNumber numberWithFloat:1.5];
+        scaleAnimation.toValue = [NSNumber numberWithFloat:1.4];
         scaleAnimation.autoreverses = YES;
         scaleAnimation.fillMode = kCAFillModeForwards;
         scaleAnimation.repeatCount = 1;
-        scaleAnimation.duration = 0.2;
+        scaleAnimation.duration = 0.15;
         [_itemImage.layer addAnimation:scaleAnimation forKey:@"scaleAnimation"];
     }
     
