@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "HHZTabbarItem.h"
 
+#define IS_IPHONEX [UIScreen mainScreen].bounds.size.width == 375 && [UIScreen mainScreen].bounds.size.height == 812
+
 @interface HHZTabbar : UITabBarController<HHZTabbarItemDelegate>
 //文字字体大小
 @property (nonatomic, assign) NSInteger fontSize;

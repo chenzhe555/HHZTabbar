@@ -9,6 +9,7 @@
 #import "HHZTabbar.h"
 #import <HHZConfigs/HHZConfig.h>
 #import <HHZCategory/UIView+HHZCategory.h>
+#import "AppDelegate.h"
 
 //红点坐标X,Y
 static CGFloat redPointX;
@@ -116,6 +117,9 @@ static CGFloat redPoingY;
             if (_tabbarHeight == 0)
             {
                 _tabbarHeight = vie.frame.size.height;
+                if (IS_IPHONEX) {
+                    _tabbarHeight += 34;
+                }
             }
             vie.hidden = YES;
             break;
@@ -137,7 +141,7 @@ static CGFloat redPoingY;
     for (int i = 0; i < count; i++)
     {
         HHZTabbarItem * item = [[HHZTabbarItem alloc] init];
-        item.frame = CGRectMake(i * SCREENW/count, 0, SCREENW/count, _tabbarHeight);
+        item.frame = CGRectMake(i * SCREENW/count, 0, SCREENW/count, (IS_IPHONEX ? _tabbarHeight - 34 : _tabbarHeight));
         item.tag = i + 666;
         item.fontSize = self.fontSize;
         
