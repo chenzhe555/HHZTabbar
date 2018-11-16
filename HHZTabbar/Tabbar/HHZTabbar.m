@@ -9,7 +9,8 @@
 #import "HHZTabbar.h"
 #import <HHZConfigs/HHZConfig.h>
 #import <HHZCategory/UIView+HHZCategory.h>
-#import "AppDelegate.h"
+
+#define IS_IPHONEX [UIScreen mainScreen].bounds.size.width == 375 && [UIScreen mainScreen].bounds.size.height == 812
 
 //红点坐标X,Y
 static CGFloat redPointX;
