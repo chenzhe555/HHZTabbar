@@ -6,7 +6,9 @@ pod 'HHZTabbar', :git => 'https://github.com/chenzhe555/HHZTabbar.git'
 ## Usage
 ###  1.继承类
 1.1[DemoTabbar.h&m](https://github.com/chenzhe555/HHZTabbar/blob/master/HHZTabbar/Demo/DemoTabbar.h)
+
 1.2[DemoTabbarTool.h&m](https://github.com/chenzhe555/HHZTabbar/blob/master/HHZTabbar/Demo/DemoTabbarTool.h)
+
 1.3如果你想自定义底部文本未选中和选中颜色，新建HHZTabbar.plist文件，写入以下代码
 ```
 <?xml version="1.0" encoding="UTF-8"?>
