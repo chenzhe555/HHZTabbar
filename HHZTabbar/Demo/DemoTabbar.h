@@ -9,5 +9,12 @@
 #import "HHZTabbar.h"
 
 @interface DemoTabbar : HHZTabbar
+
+/**
+ 创建Tabbar视图
+
+ @param tabbarArray HHZTabbarModel数组
+ @return DemoTabbar 实例
+ */
 +(instancetype)createTabbarWithTabArray:(NSArray *)tabbarArray;
 @end

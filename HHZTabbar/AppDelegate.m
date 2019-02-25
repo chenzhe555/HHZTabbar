@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "HHZTabbarModel.h"
 #import "DemoTabbar.h"
+#import "DemoTabbarTool.h"
 
 @interface AppDelegate ()
 
@@ -24,6 +25,10 @@
     self.window.rootViewController = [self createTabbar];
     [self.window makeKeyAndVisible];
     
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [[DemoTabbarTool shareManager].tabbar hideTabbarView:YES];
+    });
     
     return YES;
 }
@@ -57,19 +62,18 @@
 
 -(DemoTabbar *)createTabbar
 {
-    
     //后续根据场景再优化
     HHZTabbarModel * model1 = [HHZTabbarModel new];
     model1.sourceVC = @"DemoOneViewController";
-    model1.title = @"一";
-    model1.normalImageUrl = @"icon_message_normal";
-    model1.selectImageUrl = @"icon_message_active";
+    model1.title = @"首页";
+    model1.normalImageUrl = @"icon_home_normal";
+    model1.selectImageUrl = @"icon_home_active";
     
     HHZTabbarModel * model2 = [HHZTabbarModel new];
-    model2.title = @"二";
+    model2.title = @"我的";
     model2.sourceVC = @"DemoTwoViewController";
-    model2.normalImageUrl = @"icon_activities_normal";
-    model2.selectImageUrl = @"icon_activities_active";
+    model2.normalImageUrl = @"icon_my_normal";
+    model2.selectImageUrl = @"icon_my_active";
     
     NSArray * tabbarArray = @[model1,model2];
     
